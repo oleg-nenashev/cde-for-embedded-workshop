@@ -12,11 +12,31 @@ This first section helps you setup the workshop environment and introduces the b
 
 ## Step 1. Confirming the prerequisites
 
+Check out the prerequisites in the [main README](../README.md) and confirm that you have the mentioned tools in place.
 
+## Step 2. Configuring the environment
 
-##
+1. Open VS Code
+2. Install the dev container extension
+3. Open this directory in VS Code as a project
 
+### Podman specifics
 
+TODO: add VS Code configuration screenshot
+
+### Windows specifics
+
+You can get the workshop running on Windows,
+It is tested on the WSL2 + Podman configuration.
+However, there may be additional complications, and assistance from the tutor may be required.
+
+TODO: add VS Code configuration
+
+## Step 3. Exploring Dev Containers
+
+1. Explore the directory, especially the Dev Containers file
+2. Run the Hello World project
+3. Follow the slides for a deeper dive into the Dev Container features. We will try them one by one
 
 ## Expected outcome
 

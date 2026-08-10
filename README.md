@@ -19,8 +19,10 @@ By the end of the session, participants will have a clear understanding of how t
 ## Prerequisites
 
 * Bring-your-own laptop: Linux, MacOS or Windows
-* Installed Docker engine: Docker Desktop or Podman
-* Visual Studio Code
+* Pre-installed tools
+  * Installed Docker engine: Docker Desktop or Podman
+  * Git
+  * Visual Studio Code
 * A GitHub Account
 * Good internet connection
 
@@ -43,9 +45,17 @@ The workshop is quite heavy about the network traffic due to image pulls and
 dependency installations from package managers.
 To make it faster, run the following commands:
 
+```shell
+docker pull hello-world
+docker pull debian:bookworm-20250317
+docker pull ros:kilted-ros-base-noble
 ```
-TODO
-```
+
+## References
+
+- [Full project](./full-project/) - something you can start without going through the workshop stages. It can be opened in an IDE and you can follow it
+- [Slides: 
+Cloud and Hybrid Developer Environments - how virtualization transforms your IDEs for embedded projects](https://speakerdeck.com/onenashev/cloud-and-hybrid-developer-environments-how-virtualization-transforms-your-ides-for-embedded-projects) - my original presentation on Dev Containers from QA&Test 2025
 
 ## License
 
