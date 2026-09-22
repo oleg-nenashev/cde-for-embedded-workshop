@@ -20,23 +20,35 @@ By the end of the session, participants will have a clear understanding of how t
 
 * Bring-your-own laptop: Linux, MacOS or Windows
 * Pre-installed tools
+  * Visual Studio Code (VS Code)
   * Installed Docker engine: Docker Desktop or Podman
-  * Git
-  * Visual Studio Code
+  * Git - any recent version
 * A GitHub Account
+* Some remaining credits on GitHub Copilot, free plan is fine
 * Good internet connection
 
 ## Workshop Structure
 
+### I. Getting started
+
 * [Environment Setup](./00-setup-and-hello-world/README.md)
 * [Devcontainer Basics](./01-devcontainer-basics/README.md)
+
+### II. Key sections
+
 * [Using AI and agents in Devcontainers](./02-ai-integrations/README.md)
 * [Python tooling in a Devcontainer](./03-python-tooling-basics/README.md)
 * [C/C++ tooling in a Devcontainer](./04-cpp-tooling-basics/README.md)
 * [ROS and Gazebo in a Devcontainer](./05-ros-gazebo/README.md)
+
+### III. Optional parts
+
+The following parts can be optionally chosen by the audience,
+if the time allows and in any order: 
+
 * [Using Devcontainers in CI](./06-ci-integrations/README.md)
-* Optional - [Integration Testing with Testcontainers](./07-integration-testing/README.md)
-* Optional - [Connecting hardware to a Devcontainer](./08-external-hardware/README.md)
+* [Integration Testing with Testcontainers](./07-integration-testing/README.md)
+* [Connecting hardware to a Devcontainer](./08-external-hardware/README.md)
 * [Moving to a Cloud Developer Environment](./09-devcontainer-in-a-cde/README.md)
 
 ## Before the workshop starts
@@ -47,12 +59,14 @@ To make it faster, run the following commands:
 
 ```shell
 docker pull hello-world
+docker pull mcr.microsoft.com/devcontainers/base:ubuntu
 docker pull debian:bookworm-20250317
 docker pull ros:kilted-ros-base-noble
 ```
 
 ## References
 
+- [Slides for the workshop](https://docs.google.com/presentation/d/1-OZfkv6IKM6HeoPSos_8KJshzb0GQpcYABAalStI9ZU/edit?usp=sharing) - slides for this workshop.
 - [Full project](./full-project/) - something you can start without going through the workshop stages. It can be opened in an IDE and you can follow it
 - [Slides: 
 Cloud and Hybrid Developer Environments - how virtualization transforms your IDEs for embedded projects](https://speakerdeck.com/onenashev/cloud-and-hybrid-developer-environments-how-virtualization-transforms-your-ides-for-embedded-projects) - my original presentation on Dev Containers from QA&Test 2025
@@ -60,5 +74,4 @@ Cloud and Hybrid Developer Environments - how virtualization transforms your IDE
 ## License
 
 All code is licensed under the [Apache License v2.0](./LICENSE).
-
 

@@ -18,6 +18,23 @@ This section explores how AI tools and assistants can be used inside container-b
 
 By the end of this section, you should have a basic understanding of how AI integrations can fit into a devcontainer-based workflow.
 
+
+## Steps
+
+### Step 1. GitHub Copilot
+
+
+### Step 2. MCPs
+
 ## When completed
 
 Return to the [main workshop README](../README.md).
+
+## Notes
+
+### Other coding agents
+
+GitHub Copilot has a native integration with Dev Containers when using Visual Studio Code.
+Your mileage may vary for other local and remote coding agents.
+Below, there are some tips for other coding agents you can explore after the workshop.
+

@@ -12,5 +12,3 @@ This is what we will do in this section.
 ## When completed
 
 Return to the [main workshop README](../README.md).
-
-
