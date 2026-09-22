@@ -23,6 +23,9 @@ By the end of this section, you should have a basic understanding of how AI inte
 
 ### Step 1. GitHub Copilot
 
+1. Ensure GitHub Copilot is connected
+2. Start a Dev Container from the previous step
+3. Just use it and see the results!
 
 ### Step 2. MCPs
 
