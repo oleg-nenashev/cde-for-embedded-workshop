@@ -112,4 +112,4 @@ Any contributions to this template are welcome!
 Just submit a pull request.
 
 The main codebase is licensed under the [Apache License v2](./LICENSE).
-The Dev container codebase has the [MIT license](./dev)
+The Dev container codebase has the [MIT license](./.devcontainer/LICENSE)

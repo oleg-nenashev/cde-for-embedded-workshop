@@ -35,7 +35,7 @@ training data.
 Common MCP features like `mcp.json` apply here
 
 1. Go to [02-mcp](./02-mcp/) and open it in a Dev Container.
-2. Follow the steps in the [project README](./project/README.md) to enable the
+2. Follow the steps in the [MCP demo README](./02-mcp/README.md) to enable the
    [Context7](https://context7.com/) MCP server and use it from Copilot Chat
    to look up Python documentation while implementing a small task.
 
