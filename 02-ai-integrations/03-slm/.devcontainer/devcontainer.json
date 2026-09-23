@@ -2,9 +2,13 @@
 	"name": "AI Integrations - MCP Demo",
 	"image": "mcr.microsoft.com/devcontainers/python:3-3.14-trixie",
 	"features": {
-		"ghcr.io/prulloac/devcontainer-features/ollama:1": {
-			"pull": "Qwen2.5-0.5B"
+		"ghcr.io/devcontainers-extra/features/apt-packages:1": {
+			"packages": "zstd"
 		},
+		"ghcr.io/prulloac/devcontainer-features/ollama:1": {
+			// ollama registry name:tag for https://huggingface.co/Qwen/Qwen2.5-0.5B
+			"pull": "qwen2.5:0.5b"
+		}
 	},
 	"customizations": {
 		"vscode": {
@@ -12,6 +16,9 @@
 				"ms-python.python"
 			]
 		}
+	},
+	"containerEnv": {
+		"OLLAMA_REGISTRY": "qwen2.5:0.5b",
+		"OLLAMA_HOST": "http://host.docker.internal:11434"
 	}
-
 }
