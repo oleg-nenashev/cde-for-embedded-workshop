@@ -16,6 +16,12 @@
                 "ms-vscode.cpptools-themes",
                 "ms-vscode.cmake-tools",
                 "ms-vscode.cpptools-extension-pack",
+
+                // Python Stack
+                "ms-python.python",
+
+                // ROS Extensions
+                "ms-iot.vscode-ros",
             ]
         }
     },

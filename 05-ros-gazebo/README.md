@@ -1,4 +1,4 @@
-# 05 - ROS and Gazebo
+# 05 - ROS2 and Gazebo
 
 This section introduces robotics development workflows using ROS 2 and Gazebo inside a container.
 
@@ -15,14 +15,38 @@ For a full project, see [this directory](../full-project/README.md).
 
 ## Suggested activities
 
-1. Review the ROS-related files and package layout in [full-project](../full-project/).
-2. Start the simulation environment and inspect the available tools.
-3. Run a small example or launch command to confirm the setup.
+### Step 1. Base image
 
-#TODO
-#rosdep update
-#sudo apt-get update 
-#rosdep install --from-paths . --ignore-src -r -i -y --rosdistro kilted
+In this phase, we will construct a base image for running ROS2 and Gazebo in a 
+Dev Container.
+
+1. Review the ROS-related files and package layout in [project](./project/).
+2. Launch the Dev Container
+3. Ensure that the environment is in place
+
+```sh
+rosdep update
+sudo apt-get update 
+rosdep install --from-paths . --ignore-src -r -i -y --rosdistro kilted
+```
+
+4. Run the project build
+
+```bash
+colcon build --cmake-args -DBUILD_TESTING=ON
+```
+
+### Step 2. Simulation with Gazebo
+
+1. Start the simulation environment and inspect the available tools.
+2. Experiment with layout
+
+```bash
+ros2 launch ros_gz_example_bringup diff_drive.launch.py
+```
+
+For a more detailed guide on using this template see [documentation](https://gazebosim.org/docs/latest/ros_gz_project_template_guide).
+
 
 ## Expected outcome
 
