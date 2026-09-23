@@ -1,6 +1,6 @@
 {
     "name": "C/C++ development",
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "dockerFile": "Dockerfile",
     "features": {
         "ghcr.io/devcontainers-extra/features/cmake:1": {
             "version": "3.31.9"
@@ -8,6 +8,10 @@
         "ghcr.io/msclock/features/vcpkg:2": {
             "version": "stable",
             "vcpkgAutoUpdate": true
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:2.12.4": {
+            "version": "latest",
+            "moby": true
         }
     },
     "customizations": {

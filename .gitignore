@@ -5,5 +5,19 @@ __pycache__
 
 # C++ Builds
 03-cpp-tooling-basics/project/build/
+07-integration-testing/cpp-project/_deps/googletest-*
+07-integration-testing/cpp-project/_deps/
 full-project/project/build/
+
+# CMake
+CMakeFiles
+Makefile
+CMakeCache.txt
+*.cmake
+*.pc
+**/Testing/Temporary/**
+DartConfiguration.tcl
+build/
+/_deps
+/lib
 

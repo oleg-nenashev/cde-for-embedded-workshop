@@ -11,7 +11,7 @@ This section covers techniques for testing systems that depend on external servi
 ## Suggested activities
 
 1. Review the key principles with the instructor.
-2. Test out demos in [Testcontainers Native](https://github.com/testcontainers/testcontainers-native)
+2. Test out the Testcontainers Native demo in [cpp-project](./cpp-project/).
 
 ## Expected outcome
 

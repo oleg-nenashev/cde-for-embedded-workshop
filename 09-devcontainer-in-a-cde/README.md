@@ -9,13 +9,24 @@ This is what we will do in this section.
 
 ## Steps
 
-1. Push your demo project from [05-ros-gazebo](../05-ros-gazebo/) to your own GitHub repository
+1. Push your demo project from [01-devcontainer-basics](../01-devcontainer-basics/) to your own GitHub repository
 
-2. Open the project in GitHub Codespaces
+2. Add Code spaces configuration to the Dev Container in the `customizations` section.
 
-3. See the Developer environment running in the cloud!
+```json
+      // Configure properties specific to Codespaces.
+	    "codespaces": {
+		     "openFiles": [
+			     "README.md",
+		  ]
+	    }
+```
 
-4. Try building the project and running tests.
+3. Open the project in GitHub Codespaces.
+
+4. See the Developer environment running in the cloud!
+
+5. Try building the project and running tests.
 
 ## When completed
 

@@ -14,6 +14,11 @@ Now, we will customize the images.
 
 ### 1. Custom Images
 
+<!-- Replace by the Python example -->
+
+1. Go to [01-docker-image](./01-docker-image/)
+2. Start the image as a Dev Container and wait till completion
+3. Run `go version`
 
 
 ### 2. Docker Compose
