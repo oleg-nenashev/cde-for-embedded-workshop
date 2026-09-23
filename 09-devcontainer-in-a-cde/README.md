@@ -9,6 +9,14 @@ This is what we will do in this section.
 
 ## Steps
 
+1. Push your demo project from [05-ros-gazebo](../05-ros-gazebo/) to your own GitHub repository
+
+2. Open the project in GitHub Codespaces
+
+3. See the Developer environment running in the cloud!
+
+4. Try building the project and running tests.
+
 ## When completed
 
 Return to the [main workshop README](../README.md).

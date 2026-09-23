@@ -32,13 +32,13 @@ By the end of the session, participants will have a clear understanding of how t
 ### I. Getting started
 
 * [Environment Setup](./00-setup-and-hello-world/README.md)
-* [Devcontainer Basics](./01-devcontainer-basics/README.md)
 
 ### II. Key sections
 
+* [Devcontainer Basics](./01-devcontainer-basics/README.md)
 * [Using AI and agents in Devcontainers](./02-ai-integrations/README.md)
-* [Python tooling in a Devcontainer](./03-python-tooling-basics/README.md)
-* [C/C++ tooling in a Devcontainer](./04-cpp-tooling-basics/README.md)
+* [C/C++ tooling in a Devcontainer](./03-cpp-tooling-basics/README.md)
+* [Custom images in a Devcontainer](./04-custom-images/README.md)
 * [ROS and Gazebo in a Devcontainer](./05-ros-gazebo/README.md)
 
 ### III. Optional parts
@@ -60,6 +60,7 @@ To make it faster, run the following commands:
 ```shell
 docker pull hello-world
 docker pull mcr.microsoft.com/devcontainers/base:ubuntu
+docker pull mcr.microsoft.com/devcontainers/python:3-3.14-trixie
 docker pull debian:bookworm-20250317
 docker pull ros:kilted-ros-base-noble
 ```

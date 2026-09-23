@@ -1,18 +1,19 @@
 # 08 - External Hardware
 
 This section looks at how development environments can be connected to hardware and other real-world devices in a safe and repeatable way.
+As the workshop does not us hardware,
+this section remains largely theoretical and simulator based.
 
 ## Goals
 
-- Understand the challenges of working with external hardware from a containerized environment
+- Understand the principles of working with external hardware from a containerized environment
 - Explore approaches for exposing devices and interfaces to the workspace
 - Learn how to design setups that remain portable but still support hardware access
 
-## Suggested activities
+## Steps
 
-1. Review the hardware-related requirements and constraints of the workshop example.
-2. Identify which device access patterns are relevant to your own projects.
-3. Consider how to adapt the environment for local or remote hardware testing.
+1. Review the respective section of the presentation with the instructor.
+2. Try out the demos referenced oin the presentation.
 
 ## Expected outcome
 

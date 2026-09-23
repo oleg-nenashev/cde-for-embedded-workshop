@@ -15,9 +15,14 @@ For a full project, see [this directory](../full-project/README.md).
 
 ## Suggested activities
 
-1. Review the ROS-related files and package layout.
+1. Review the ROS-related files and package layout in [full-project](../full-project/).
 2. Start the simulation environment and inspect the available tools.
 3. Run a small example or launch command to confirm the setup.
+
+#TODO
+#rosdep update
+#sudo apt-get update 
+#rosdep install --from-paths . --ignore-src -r -i -y --rosdistro kilted
 
 ## Expected outcome
 

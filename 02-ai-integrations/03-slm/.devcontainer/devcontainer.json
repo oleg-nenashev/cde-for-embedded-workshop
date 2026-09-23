@@ -1,0 +1,17 @@
+{
+	"name": "AI Integrations - MCP Demo",
+	"image": "mcr.microsoft.com/devcontainers/python:3-3.14-trixie",
+	"features": {
+		"ghcr.io/prulloac/devcontainer-features/ollama:1": {
+			"pull": "Qwen2.5-0.5B"
+		},
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python"
+			]
+		}
+	}
+
+}

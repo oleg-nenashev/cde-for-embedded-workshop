@@ -1,0 +1,32 @@
+// See the README for details
+{
+    "name": "C/C++ development",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/devcontainers-extra/features/cmake:1": {
+            "version": "3.31.9"
+        },
+        "ghcr.io/msclock/features/vcpkg:2": {
+            "version": "stable",
+            "vcpkgAutoUpdate": true
+        }
+    },
+    "customizations": {
+      "vscode": {
+        // Set *default* container specific settings.json values on container create.
+        "settings": {
+          "terminal.integrated.shell.linux": "/bin/bash",
+          "debug.javascript.usePreview": false
+        },
+        // Add the IDs of extensions you want installed when the container is created.
+        "extensions": [
+          "ms-vscode.cmake-tools",
+          "ms-vscode.makefile-tools",
+          "ms-vscode.cpptools-extension-pack",
+          "cschlosser.doxdocgen",
+        ],
+      },
+    },
+ 
+    "remoteUser": "vscode",
+  }

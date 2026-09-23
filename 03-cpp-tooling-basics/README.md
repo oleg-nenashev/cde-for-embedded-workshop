@@ -14,6 +14,8 @@ This section covers the core tooling used for C and C++ development inside a con
 2. Configure the environment needed to compile and debug code.
 3. Run a basic build and inspect the generated output.
 
+The [project](project/) folder contains a sample CMake project with a GoogleTest suite (see its [README](project/README.md) for build and test instructions).
+
 ## Expected outcome
 
 You should be comfortable with the fundamentals of building and working on C/C++ projects in a container-based setup.

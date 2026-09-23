@@ -2,3 +2,8 @@
 
 
 __pycache__
+
+# C++ Builds
+03-cpp-tooling-basics/project/build/
+full-project/project/build/
+

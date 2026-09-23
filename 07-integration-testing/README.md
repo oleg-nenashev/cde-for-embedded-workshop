@@ -10,9 +10,8 @@ This section covers techniques for testing systems that depend on external servi
 
 ## Suggested activities
 
-1. Review the testing approach used in the workshop examples.
-2. Identify which services or components need a more realistic test setup.
-3. Run or inspect a sample integration test scenario.
+1. Review the key principles with the instructor.
+2. Test out demos in [Testcontainers Native](https://github.com/testcontainers/testcontainers-native)
 
 ## Expected outcome
 
