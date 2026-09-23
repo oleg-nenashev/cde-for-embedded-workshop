@@ -82,6 +82,26 @@ To test it out, configure the Python environment by adding the following block t
 After the setting, rebuild the Dev Container and confirm that you actually get syntax highlighting and other features
 of the stock Python plugin for VS Code.
 
+### 5. Post-initialization
+
+1. Add `requirements.txt` to the Dev Container directory
+
+```
+pytest==8.3.3
+```
+
+2. Add the installation hook to `devcontainer.json`
+
+```json
+"postCreateCommand": "pip install -r .devcontainer/requirements.txt"
+```
+
+3. Rebuild the Dev Container and ensure the file was picked up
+
+```shell
+pytest
+```
+
 ## Expected outcome
 
 You should be able to explain the purpose of a devcontainer and use one to start a consistent development environment.
