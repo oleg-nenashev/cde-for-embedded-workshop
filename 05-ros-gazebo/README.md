@@ -15,6 +15,8 @@ For a full project, see [this directory](../full-project/README.md).
 
 ## Suggested activities
 
+<!--TODO switch to https://github.com/lopsided98/nix-ros-overlay ?-->
+
 ### Step 1. Base image
 
 In this phase, we will construct a base image for running ROS2 and Gazebo in a 

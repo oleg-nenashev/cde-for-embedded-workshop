@@ -23,8 +23,8 @@ This might be useful if you bring in additional images, e.g. a database.
 In the workshop we will not be creating such a Dev Container on our own.
 Instead, we will just use a sample project from the official [Dev Containers Guide](https://containers.dev/guide/dockerfile#docker-compose).
 
-1. Go to [06-docker-compose](./06-docker-compose/)
-2. Run the demo in the Dev Container
+1. Go to [06-docker-compose](./02-docker-compose/)
+2. Follow the instructions in the demo
 
 ## Expected outcome
 

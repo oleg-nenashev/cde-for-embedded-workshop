@@ -1,5 +1,11 @@
 {
     "dockerComposeFile": "docker-compose.yml",
     "service": "devcontainer",
-    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "features": {
+      "ghcr.io/devcontainers/features/python:1": {
+        "version": "3.12",
+      }
+    },
+    "postCreateCommand": "pip install -r .devcontainer/requirements.txt"
 }

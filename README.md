@@ -63,6 +63,7 @@ docker pull mcr.microsoft.com/devcontainers/base:ubuntu
 docker pull mcr.microsoft.com/devcontainers/python:3-3.14-trixie
 docker pull debian:bookworm-20250317
 docker pull ros:kilted-ros-base-noble
+docker pull postgres:latest
 ```
 
 ## References
