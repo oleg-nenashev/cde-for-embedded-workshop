@@ -1,18 +1,19 @@
-# 04 - C/C++ Tooling Basics
+# 03 - C/C++ Tooling Basics
 
 This section covers the core tooling used for C and C++ development inside a containerized environment.
+Yes, C/C++ developers can have nice things too!
 
 ## Goals
 
-- Understand the basic build and compile workflow for C/C++ projects
-- Explore tools such as CMake, compilers, and language servers
-- Learn how to make C++ development work reliably in a devcontainer
+- Learn how to make C++ development work in a devcontainer
 
-## Suggested activities
+## Steps
 
-1. Review the project structure for C/C++ sources and build files.
-2. Configure the environment needed to compile and debug code.
-3. Run a basic build and inspect the generated output.
+1. Create a sample C/C++ developer environment using the Dev Container features
+
+2. Run the developer environment in a Dev Container
+
+3. Build and test the app
 
 The [project](project/) folder contains a sample CMake project with a GoogleTest suite (see its [README](project/README.md) for build and test instructions).
 

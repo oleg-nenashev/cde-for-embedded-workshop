@@ -1,4 +1,4 @@
-# 03 - Custom Images
+# 04 - Custom Images for Dev Containers
 
 Ability to add custom Docker images is one of the best capability of Dev Containers.
 In previous sections, we used the default images and only used features to customize them.
