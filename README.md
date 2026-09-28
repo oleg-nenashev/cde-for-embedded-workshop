@@ -50,6 +50,7 @@ if the time allows and in any order:
 * [Integration Testing with Testcontainers](./07-integration-testing/README.md)
 * [Connecting hardware to a Devcontainer](./08-external-hardware/README.md)
 * [Moving to a Cloud Developer Environment](./09-devcontainer-in-a-cde/README.md)
+* [Using Nix in Devcontainers](./10-nix-in-devcontainers/README.md)
 
 ## Before the workshop starts
 
