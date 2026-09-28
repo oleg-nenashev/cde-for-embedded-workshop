@@ -58,13 +58,24 @@ Most recent of Podman should not require any other configuration when running wi
 
 ### Windows specifics
 
-You can get the workshop running on Windows,
-It is tested on the WSL2 + Podman configuration.
-However, there may be additional complications, and assistance from the tutor may be required.
+You can get the workshop running on Windows.
+Normally, the tutorial should work fine on the default settings.
+It was tested on the WSL2 + Podman and "WSL2 + Docker Desktop" configurations.
 
-TODO: add VS Code configuration
+If there are any complications, ask for assistance from the tutor.
 
-## Step 3. Explore Dev Containers
+## Step 3. Prepare the workspace
+
+The next phases of the course will incrementally build the project which is provided in [full-project](../full-project/).
+
+To get started:
+
+1. Go to the [workshop repository](https://github.com/oleg-nenashev/cde-for-embedded-workshop) on GitHub.
+2. Fork the repository to your personal GitHub account.
+3. Clone the repository to your developer machine.
+3. Open the repository in VS Code as a project.
+
+## Step 4. Explore Dev Containers
 
 In this step, we will get a sample project running.
 The goal is to make sure the environment is configured correctly
@@ -77,16 +88,6 @@ We will not be modifying the project for this phase.
 4. Explore the [hello-world](./hello-world/) directory, especially the Dev Containers file
 
 A deeper dive will take place at the next step.
-
-## Step 4. Create a project for the next phases
-
-The next phases of the course will incrementally build the project which is provided in [full-project](../full-project/).
-
-To get started:
-
-1. Go to the TODO repository.
-2. Clone the repository to your personal GitHub account.
-3. Open the repository in VS Code as a project.
 
 ## Expected outcome
 
