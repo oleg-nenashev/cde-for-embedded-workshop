@@ -1,4 +1,4 @@
-# Moving to a Cloud Developer Environment
+# 06 - Cloud Developer Environments with Dev Containers
 
 As we have moved most of the development environment to a Dev Containers,
 now we can also move this container out of our developer machine!

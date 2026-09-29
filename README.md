@@ -77,5 +77,7 @@ Cloud and Hybrid Developer Environments - how virtualization transforms your IDE
 
 ## License
 
-All code is licensed under the [Apache License v2.0](./LICENSE).
+All code is licensed under the Apache License v2.0, unless specified differently.
+The workshop contents and texts are shared under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](./LICENSE).
+
 

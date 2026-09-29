@@ -1,0 +1,36 @@
+{
+    "name": "Material for MkDocs",
+    "image": "mcr.microsoft.com/devcontainers/python:3-3.14-trixie",
+    "features": {
+      "ghcr.io/devcontainers-extra/features/apt-packages:1": {
+        "packages": "libsass-dev, build-essential, libcairo2, git, pngquant"
+      }
+    },
+    "customizations": {
+      "vscode": {
+        // Set *default* container specific settings.json values on container create.
+        "settings": {
+          "terminal.integrated.shell.linux": "/bin/bash",
+          "debug.javascript.usePreview": false,
+          "python.defaultInterpreterPath": "/usr/local/bin/python3",
+        },
+        // Add the IDs of extensions you want installed when the container is created.
+        "extensions": [
+          "yzhang.markdown-all-in-one",
+          "redhat.vscode-yaml",
+          "shardulm94.trailing-spaces",
+          "oderwat.indent-rainbow",
+          "msjsdiag.debugger-for-chrome"
+        ],
+      },
+    },
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    "forwardPorts": [
+      8000
+    ],
+    // Use 'postCreateCommand' to run commands after the container is created.
+    "postCreateCommand": "pip3 install -r .devcontainer/requirements.txt",
+    // Use non-root by default
+    "remoteUser": "vscode"
+  }
+  

@@ -1,4 +1,4 @@
-# 08 - External Hardware
+# Hardware-in-the-loop and Simulators
 
 This section looks at how development environments can be connected to hardware and other real-world devices in a safe and repeatable way.
 As the workshop does not us hardware,

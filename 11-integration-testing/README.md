@@ -1,4 +1,4 @@
-# 07 - Integration Testing
+# Integration Testing with Dev Containers
 
 This section covers techniques for testing systems that depend on external services, hardware abstractions, or distributed components.
 

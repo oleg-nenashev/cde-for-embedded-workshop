@@ -1,0 +1,161 @@
+site_name: Workshop - Dev Containers for Embedded
+site_description: >-
+  Workshop - Dev Containers and Container Developer Environments.
+  Virtualizing your IDEs for embedded projects, with Python and C/C++ stacks.
+copyright: >-
+  Copyright &copy; 2026 - Oleg Nenashev.
+  The content and assets in the main repo are licensed under CC BY-SA 4.0.
+  Imported content and source code may have different licenses.
+  Trademarked names, project and company logos belong to their respective owners.
+repo_url: https://github.com/oleg-nenashev/workshop-dev-containers-for-embedded
+repo_name: GitHub Repo
+edit_uri: edit/main/
+site_url: https://workshop-dev-containers-for-embedded.github.io
+
+# Build
+site_dir: _site
+docs_dir: .
+
+nav:
+  - Overview: README.md
+  - I. Getting started:
+      - Environment Setup: 00-setup-and-hello-world/README.md
+  - II. Key sections:
+      - 1. Devcontainer Basics: 01-devcontainer-basics/README.md
+      - 2. AI Integrations:
+        - Overview: 02-ai-integrations/README.md
+        - MCP: 02-ai-integrations/02-mcp/README.md
+        - SLM: 02-ai-integrations/03-slm/README.md
+      - 3. C/C++ Tooling Basics: 03-cpp-tooling-basics/README.md
+      - 4. Custom Images:
+        - Overview: 04-custom-images/README.md
+        - Custom Docker Images: 04-custom-images/01-dockerfile/README.md
+        - Docker Compose: 04-custom-images/02-docker-compose/README.md
+      - 5. ROS2 and Gazebo: 05-ros-gazebo/README.md
+      - 6. Cloud Developer Environment: 06-devcontainer-in-a-cde/README.md
+  - III. Optional chapters:
+      - Using Devcontainers in CI: 10-ci-integrations/README.md
+      - Integration Testing with Testcontainers: 11-integration-testing/README.md
+      - Using Nix in Devcontainers: 12-nix-in-devcontainers/README.md
+      - Connecting hardware to a Devcontainer: 13-external-hardware/README.md
+      - Custom CDEs: 14-custom-cdes/README.md
+
+plugins:
+  - search
+  - autorefs
+  - macros
+  - mkdocs-pdf
+  - social:
+      cards_layout_options:
+        background_color: "#34365F"
+  - same-dir
+  - group:
+      enabled: !ENV GENERATE_PDF
+      plugins:
+      - to-pdf
+  - redirects:
+
+# Markdown
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: '#'
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - mdx_truly_sane_lists
+
+# Theme
+theme:
+  name: material
+  custom_dir: site/theme/overrides/
+  highlightjs: true
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    # NOT compatible qith toc.integrate
+    # - navigation.indexes
+    - navigation.path
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.expand
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+    
+  font:
+    text: DM Sans
+    code: Roboto Mono
+  palette:
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      primary: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      primary: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  favicon: site/assets/images/favicon.ico
+  logo: site/assets/images/logo.png
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - site/assets/css/theme.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/oleg-nenashev
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/onenashev/
+      name: LinkedIn
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/oleg_nenashev
+      name: Twitter/X
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/onenashev
+      name: Telegram
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@onenashev
+      name: Mastodon
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/asciidwarf.bsky.social
+      name: Bluesky
+
+

@@ -1,4 +1,4 @@
-# 06 - CI Integrations
+# Using Dev Containers in CI / CD
 
 This section focuses on how the same devcontainer-based environment can be reused in continuous integration pipelines.
 
