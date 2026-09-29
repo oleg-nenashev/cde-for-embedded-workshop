@@ -10,7 +10,7 @@ copyright: >-
 repo_url: https://github.com/oleg-nenashev/workshop-dev-containers-for-embedded
 repo_name: GitHub Repo
 edit_uri: edit/main/
-site_url: https://workshop-dev-containers-for-embedded.github.io
+site_url: https://oleg-nenashev.github.io/workshop-dev-containers-for-embedded/
 
 # Build
 site_dir: _site
