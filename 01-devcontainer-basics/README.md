@@ -22,7 +22,7 @@ with a few extra modifications for demo purposes.
 
 ## Practice - Your first Dev Containers project
 
-Here, you will create a new project from scratch, using a sample project in [project](./project/) as an example.
+Here, you will create a new project from scratch, using a sample project in [project-empty](./project-empty/) as an example.
 A target state after all the listed changes in shown in [project-final](./project-final/).
 
 ## 1. Initializing Dev Containers with a template
