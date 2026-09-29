@@ -40,7 +40,7 @@ By the end of the session, participants will have a clear understanding of how t
 3. [C/C++ tooling in a Devcontainer](./03-cpp-tooling-basics/README.md)
 4. [Custom images in a Devcontainer](./04-custom-images/README.md)
 5. [ROS and Gazebo in a Devcontainer](./05-ros-gazebo/README.md)
-6. [Moving to a Cloud Developer Environment](./0-devcontainer-in-a-cde/README.md)
+6. [Moving to a Cloud Developer Environment](./06-devcontainer-in-a-cde/README.md)
 
 ### III. Optional parts
 
