@@ -35,22 +35,23 @@ By the end of the session, participants will have a clear understanding of how t
 
 ### II. Key sections
 
-* [Devcontainer Basics](./01-devcontainer-basics/README.md)
-* [Using AI and agents in Devcontainers](./02-ai-integrations/README.md)
-* [C/C++ tooling in a Devcontainer](./03-cpp-tooling-basics/README.md)
-* [Custom images in a Devcontainer](./04-custom-images/README.md)
-* [ROS and Gazebo in a Devcontainer](./05-ros-gazebo/README.md)
+1. [Devcontainer Basics](./01-devcontainer-basics/README.md)
+2. [Using AI and agents in Devcontainers](./02-ai-integrations/README.md)
+3. [C/C++ tooling in a Devcontainer](./03-cpp-tooling-basics/README.md)
+4. [Custom images in a Devcontainer](./04-custom-images/README.md)
+5. [ROS and Gazebo in a Devcontainer](./05-ros-gazebo/README.md)
+6. [Moving to a Cloud Developer Environment](./0-devcontainer-in-a-cde/README.md)
 
 ### III. Optional parts
 
 The following parts can be optionally chosen by the audience,
 if the time allows and in any order: 
 
-* [Using Devcontainers in CI](./06-ci-integrations/README.md)
-* [Integration Testing with Testcontainers](./07-integration-testing/README.md)
-* [Connecting hardware to a Devcontainer](./08-external-hardware/README.md)
-* [Moving to a Cloud Developer Environment](./09-devcontainer-in-a-cde/README.md)
-* [Using Nix in Devcontainers](./10-nix-in-devcontainers/README.md)
+* [Using Devcontainers in CI](./10-ci-integrations/README.md)
+* [Integration Testing with Testcontainers](./11-integration-testing/README.md)
+* [Using Nix in Devcontainers](./12-nix-in-devcontainers/README.md)
+* [Connecting hardware to a Devcontainer](./13-external-hardware/README.md)
+* [Custom CDEs](./14-custom-cdes/README.md)
 
 ## Before the workshop starts
 

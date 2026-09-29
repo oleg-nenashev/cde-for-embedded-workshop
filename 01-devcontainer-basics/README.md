@@ -45,7 +45,7 @@ In many cases, it helps to avoid custom configurations and custom images if you 
 Specifically for Python tools, where most of tools are available through PIP, it has marginal value.
 However, you can still use it to install external tools.
 For example, for Debian based images you can use [apt packages](https://github.com/devcontainers-extra/features/tree/main/src/apt-packages).
-There are also [Nix](../10-nix-in-devcontainers/) integrations.
+There are also [Nix](../12-nix-in-devcontainers/) integrations.
 
 1. Review [Dev Container Features](https://containers.dev/features) and explore the features available for Python projects.
 
